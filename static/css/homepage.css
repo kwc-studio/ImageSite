@@ -246,7 +246,6 @@ textarea
      -webkit-transition: opacity .5s,transform .5s;
     transition: opacity .5s,transform .5s;
 }
-
 .worksimg:hover
 {
     opacity: 1;
@@ -263,7 +262,6 @@ textarea
     width:100%;
     height:auto;
 }
-
 #APP_works,#WEB_works,#SOFTWARE_works
 {
     
@@ -274,7 +272,6 @@ textarea
     display: block;
     margin:2%;
 }
-
 #collections:hover,#contact:hover{
     opacity: 1;
     -ms-transform: scale(1.05); /* IE 9 */
@@ -283,12 +280,10 @@ textarea
      -webkit-transition: opacity .5s,transform .5a;
     transition: opacity .5s,transform .5s;
 }
-
 #send{
     float:right;
     margin-top: -15px;
 }
-
 #reback{
     float:right;
     margin-top: -15px;

@@ -1,4 +1,5 @@
 const Express = require('express');
+const compression = require('compression');
 const App = Express();
 const mysql = require('mysql');
 const fs = require('fs');
@@ -15,7 +16,7 @@ var connection = mysql.createConnection({
     password: 'KWCtstc2017mysql',
     database: 'image_site'
 });
-
+App.use(compression());
 App.use('/static', Express.static(__dirname + '/static'));
 var keyPath = __dirname + '/.ssl/private.key';
 var certPath = __dirname + '/.ssl/certificate.crt';

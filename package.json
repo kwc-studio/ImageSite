@@ -3,6 +3,7 @@
   "lockfileVersion": 1,
   "dependencies": {
     "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
     "express": "^4.15.5",
     "mysql": "^2.14.1",
     "socket.io": "^2.0.3"
