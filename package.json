@@ -1,0 +1,19 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "mysql": "^2.14.1",
+    "socket.io": "^2.0.3"
+  },
+  "name": "imagesite",
+  "version": "1.0.1",
+  "description": "KWC Studio Imagesite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LCC",
+  "license": "ISC"
+}

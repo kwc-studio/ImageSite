@@ -1,0 +1,446 @@
+Tue, 26 Sep 2017 18:59:51 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at index.js:42:9
+Tue, 26 Sep 2017 18:59:51 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+listening on 443....
+db connect successful!
+username : lcc
+passwd : ajgedbaa
+RowDataPacket { password: 'ajgedbaa' }
+success write db to portfolio
+
+{ title: 'tew',
+  info: '',
+  worktime: '',
+  tools: '',
+  type: 'software',
+  image_url: '' }
+{ id: 2,
+  title: 'tew',
+  info: '',
+  worktime: '',
+  tools: '',
+  type: 'software',
+  image_url: '' }
+success write db to portfolio
+
+{ title: 'teww',
+  info: '',
+  worktime: '',
+  tools: '',
+  type: 'web',
+  image_url: '' }
+{ id: 3,
+  title: 'teww',
+  info: '',
+  worktime: '',
+  tools: '',
+  type: 'web',
+  image_url: '' }
+username : lcc
+passwd : ajgedbaa
+RowDataPacket { password: 'ajgedbaa' }
+ok
+1
+RowDataPacket {
+  sn: 1,
+  title: 'f3r我我我123',
+  info: 'gr',
+  worktime: 'gre',
+  tools: 'gre',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+success update db to portfolio
+
+{ title: 'POI',
+  info: 'A stupid app',
+  worktime: '3 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+{ id: 1,
+  title: 'POI',
+  info: 'A stupid app',
+  worktime: '3 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+ok
+2
+RowDataPacket {
+  sn: 2,
+  title: 'tew',
+  info: '',
+  worktime: '',
+  tools: '',
+  type: 'software',
+  image_url: '' }
+success update db to portfolio
+
+{ title: 'Youtube 網路爬蟲',
+  info: '爬蟲YouTube上的影片連結,頻道名稱...等等(無GUI)',
+  worktime: '2 weeks',
+  tools: 'Python',
+  type: 'software',
+  image_url: 'EPtFSa4,wfefZbi,1Tw5UZ5,zGFX3DA' }
+{ id: 2,
+  title: 'Youtube 網路爬蟲',
+  info: '爬蟲YouTube上的影片連結,頻道名稱...等等(無GUI)',
+  worktime: '2 weeks',
+  tools: 'Python',
+  type: 'software',
+  image_url: 'EPtFSa4,wfefZbi,1Tw5UZ5,zGFX3DA' }
+ok
+3
+RowDataPacket {
+  sn: 3,
+  title: 'teww',
+  info: '',
+  worktime: '',
+  tools: '',
+  type: 'web',
+  image_url: '' }
+success update db to portfolio
+
+{ title: 'Image Site形象網站',
+  info: 'KWC Studio 形象網站',
+  worktime: '2 weeks',
+  tools: 'Visual Code',
+  type: 'web',
+  image_url: 'QeKI6QS' }
+{ id: 3,
+  title: 'Image Site形象網站',
+  info: 'KWC Studio 形象網站',
+  worktime: '2 weeks',
+  tools: 'Visual Code',
+  type: 'web',
+  image_url: 'QeKI6QS' }
+success write db to portfolio
+
+{ title: 'tank.io game',
+  info: '線上戰車對戰小遊戲',
+  worktime: '2days',
+  tools: 'nodejs + html + css',
+  type: 'web',
+  image_url: 'QeKI6QS' }
+{ id: 4,
+  title: 'tank.io game',
+  info: '線上戰車對戰小遊戲',
+  worktime: '2days',
+  tools: 'nodejs + html + css',
+  type: 'web',
+  image_url: 'QeKI6QS' }
+success write db to portfolio
+
+{ title: '戒菸小幫手',
+  info: '戒菸小幫手 UI 更改',
+  worktime: '2 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+{ id: 5,
+  title: '戒菸小幫手',
+  info: '戒菸小幫手 UI 更改',
+  worktime: '2 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+success write db to portfolio
+
+{ title: 'APP 行車遙控器',
+  info: '可以遙控車上後座影音設備的app遙控器',
+  worktime: '2 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+{ id: 6,
+  title: 'APP 行車遙控器',
+  info: '可以遙控車上後座影音設備的app遙控器',
+  worktime: '2 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+success write db to portfolio
+
+{ title: '跑步小幫手',
+  info: '一個方便你計算跑了多少公里消耗多少卡路里的APP',
+  worktime: '3 days',
+  tools: 'android studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+{ id: 7,
+  title: '跑步小幫手',
+  info: '一個方便你計算跑了多少公里消耗多少卡路里的APP',
+  worktime: '3 days',
+  tools: 'android studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+ok
+6
+RowDataPacket {
+  sn: 6,
+  title: 'APP 行車遙控器',
+  info: '可以遙控車上後座影音設備的app遙控器',
+  worktime: '2 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+ok
+2
+RowDataPacket {
+  sn: 2,
+  title: 'Youtube 網路爬蟲',
+  info: '爬蟲YouTube上的影片連結,頻道名稱...等等(無GUI)',
+  worktime: '2 weeks',
+  tools: 'Python',
+  type: 'software',
+  image_url: 'EPtFSa4,wfefZbi,1Tw5UZ5,zGFX3DA' }
+username : carry
+passwd : cS_2907
+undefined
+username : carry
+passwd : Cs_2907
+undefined
+username : carry
+passwd : Cs_0629
+undefined
+username : carry
+passwd : Cc_0629
+undefined
+username : carry
+passwd : cs_2907
+undefined
+username : carry
+passwd : cs_0629
+undefined
+username : carry
+passwd : Cs_2907
+undefined
+username : lcg
+passwd : ajgedbaa
+undefined
+ok
+2
+RowDataPacket {
+  sn: 2,
+  title: 'Youtube 網路爬蟲',
+  info: '爬蟲YouTube上的影片連結,頻道名稱...等等(無GUI)',
+  worktime: '2 weeks',
+  tools: 'Python',
+  type: 'software',
+  image_url: 'EPtFSa4,wfefZbi,1Tw5UZ5,zGFX3DA' }
+File save!
+
+--------------------------
+2017/9/27 11:12:46
+
+test
+--------------------------
+
+Wed, 27 Sep 2017 03:40:55 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at index.js:42:9
+Wed, 27 Sep 2017 03:40:55 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+listening on 8501....
+db connect successful!
+ok
+6
+RowDataPacket {
+  sn: 6,
+  title: 'APP 行車遙控器',
+  info: '可以遙控車上後座影音設備的app遙控器',
+  worktime: '2 weeks',
+  tools: 'Android Studio',
+  type: 'app',
+  image_url: 'QeKI6QS' }
+username : lcc
+passwd : ajgedbaa
+RowDataPacket { password: 'ajgedbaa' }
+success write db to portfolio
+
+{ title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+success write db to portfolio
+
+{ title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+{ id: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+{ id: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+ok
+9
+RowDataPacket {
+  sn: 9,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+ok
+9
+RowDataPacket {
+  sn: 9,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+Number of records deleted: 1
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: '' }
+success update db to portfolio
+
+{ title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsD,OwZs5St' }
+{ id: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsD,OwZs5St' }
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsD,OwZs5St' }
+username : lcc
+passwd : ajgedbaa
+RowDataPacket { password: 'ajgedbaa' }
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsD,OwZs5St' }
+success update db to portfolio
+
+{ title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDs,OwZs5Sts' }
+{ id: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDs,OwZs5Sts' }
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDs,OwZs5Sts' }
+username : lcc
+passwd : ajgedbaa
+RowDataPacket { password: 'ajgedbaa' }
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDs,OwZs5Sts' }
+success update db to portfolio
+
+{ title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDm,OwZs5Stm' }
+{ id: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDm,OwZs5Stm' }
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDm,OwZs5Stm' }
+ok
+8
+RowDataPacket {
+  sn: 8,
+  title: 'IOS簡易app',
+  info: '基於客戶要求,建立可以顯示目前時間的標籤及整體簡易排版',
+  worktime: '1 Day',
+  tools: 'Xcode,Swift',
+  type: 'app',
+  image_url: 'Epr4zsDm,OwZs5Stm' }
+ok
+2
+RowDataPacket {
+  sn: 2,
+  title: 'Youtube 網路爬蟲',
+  info: '爬蟲YouTube上的影片連結,頻道名稱...等等(無GUI)',
+  worktime: '2 weeks',
+  tools: 'Python',
+  type: 'software',
+  image_url: 'EPtFSa4,wfefZbi,1Tw5UZ5,zGFX3DA' }

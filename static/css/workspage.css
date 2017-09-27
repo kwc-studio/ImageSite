@@ -1,0 +1,58 @@
+#work_pic_frame
+{
+    font-size:30px;
+    position: absolute;
+    width:100%;
+    height:300vh;
+    top:100%;
+    left:1%;
+    display:-webkit-flex; 
+    display:flex; 
+    -webkit-justify-content: center; 
+    justify-content: center;
+    
+}
+.detailclass{
+	display: none;
+    	overflow:hidden;
+	font-size:30px;
+}
+.work_table{
+    width:100vw;
+    display: table;
+    border-collapse:separate;
+    border-spacing: 5px;
+}
+td
+{
+    font-size:20px;
+    font-family: Microsoft JhengHei;
+    width:25vw;
+    height:20vw;
+    text-align:center;
+}
+.works_img_frame
+{
+    border: 2px solid rgb(168,63,66);
+    background-color: white;
+    border-radius: 5px;
+    width:20vw;
+    height:90%;
+    cursor: pointer;
+}
+.works_img
+{
+    -webkit-transition: backgruond-color 1s;  
+    transition: backgruond-color 1s;
+    margin-top: 10px;
+    width:80%;
+    height:65%;
+    margin-bottom:30px;
+}
+
+.works_img_frame:hover {
+    background-color: rgb(168,63,66);
+}
+
+
+

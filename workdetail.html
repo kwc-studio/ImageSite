@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+        <link rel="stylesheet" href="static/css/workdetail.css">
+        
+    </head>
+    <body ng-app='worksdetail' ng-controller='ctrl'>
+        <div class='main'>
+            <div class='header'>
+                <h1 class='detailtitle'>{{data.title}}</h1>
+            </div>
+            <div class='detail-box'>
+            <div class='detail'>
+                <ul class='detaillist'>
+                <li><span style='color:#004080'>Case Info:</span> {{data.info}}</li>
+                <li ><span style='color:#004080'>Working Times:</span>  {{data.worktime}}</li>
+                <li ><span style='color:#004080'>Tools:</span>  {{data.tools}}</li>
+                </ul>
+            </div>
+            </div>
+            <div class='pictures'>
+                <p style='font-size:50px;'>成果快照</p>
+                <div ng-repeat="img_url in arr" class='imgclass'><img style='width:100%;'ng-src="http://imgur.com/{{img_url}}.png"></div>
+            </div>
+        </div>
+        
+        <script>
+            var app = angular.module('worksdetail', []);
+            app.controller('ctrl', function($scope,$http,$location) {
+                function id(domain = document.location.href){
+                    domain = domain.split('=')
+                    return domain[domain.length-1]
+                }
+                $http.get('works?ID='+id()).then(function(response){
+                    $scope.data = response.data;
+                    console.log(typeof $scope.data.image_url[0])
+                    $scope.imgurl = $scope.data.image_url.toString()
+                    $scope.str = $scope.data.image_url
+                    $scope.arr = $scope.str.split(",")
+                    console.log($scope.arr)
+                })
+            
+            
+            });
+           
+        </script>
+    </body>
+</html>
